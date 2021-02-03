@@ -15,13 +15,15 @@ class MainWindow:
 		# Window
 		self.window = self.builder.get_object("window") # Pencere elemanımıza eriştik
 		self.dialog_about = self.builder.get_object("hakkinda")
+		self.merhaba = self.builder.get_object("merhaba")
 		self.window.set_application(app) # Penceremizin uygulamasını main.py'den aldığımız Gtk.Application'a ayarladık
         
 		# Ekranı göster
 		self.window.show_all()
     
 	def on_tikla_clicked(self, button):
-		print("Merhaba dünya!")
+		self.merhaba.run()
+		self.merhaba.hide()
 	def on_kapat_clicked(self, button):
 		self.window.get_application().quit()
 	def on_about_clicked(self, button):
