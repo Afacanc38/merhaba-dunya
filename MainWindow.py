@@ -16,7 +16,7 @@ class MainWindow:
 		self.window = self.builder.get_object("window") # Pencere elemanımıza eriştik
 		self.dialog_about = self.builder.get_object("hakkinda")
 		self.merhaba = self.builder.get_object("merhaba")
-		self.window.set_application(app) # Penceremizin uygulamasını main.py'den aldığımız Gtk.Application'a ayarladık
+		self.window.set_application(app)
         
 		# Ekranı göster
 		self.window.show_all()
