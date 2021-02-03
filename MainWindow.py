@@ -23,7 +23,7 @@ class MainWindow:
 	def on_tikla_clicked(self, button):
 		print("Merhaba dünya!")
 	def on_kapat_clicked(self, button):
-		print("Bunu yapmayı beceremedim...")
+		self.window.get_application().quit()
 	def on_about_clicked(self, button):
 		self.dialog_about.run()
 		self.dialog_about.hide()
