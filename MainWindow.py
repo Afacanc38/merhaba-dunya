@@ -17,6 +17,7 @@ class MainWindow:
 		self.dialog_about = self.builder.get_object("hakkinda")
 		self.merhaba = self.builder.get_object("merhaba")
 		self.window.set_application(app)
+		self.window.set_icon_from_file('images/logo.png')
         
 		# Ekranı göster
 		self.window.show_all()
