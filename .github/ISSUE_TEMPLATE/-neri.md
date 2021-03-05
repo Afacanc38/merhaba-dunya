@@ -6,6 +6,9 @@ labels: ''
 assignees: ''
 
 ---
+<!--
+Bu şablonu silmeyin!  
+--->
 
 **Özellik talebiniz bir sorunla mı ilgili? Lütfen tanımlayın.**
 Sorunun ne olduğuna dair net ve kısa bir açıklama. Örn. [...]
