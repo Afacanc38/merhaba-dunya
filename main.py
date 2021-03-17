@@ -11,7 +11,7 @@ from MainWindow import MainWindow
 class Uygulama(Gtk.Application):
     def __init__(self, *args, **kwargs):
         super().__init__(*args,
-            application_id="tr.org.pardus.ornek-uygulama",
+            application_id="org.yapboz.example",
             flags=Gio.ApplicationFlags.FLAGS_NONE,
             **kwargs)
     
