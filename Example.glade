@@ -59,7 +59,7 @@
           <object class="GtkButtonBox">
             <property name="can-focus">False</property>
             <property name="homogeneous">True</property>
-            <property name="layout-style">spread</property>
+            <property name="layout-style">expand</property>
             <child>
               <placeholder/>
             </child>
