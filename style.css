@@ -1,0 +1,41 @@
+* {
+  background: #F6F5F4;
+  border-radius: 10px;
+  color: #383E3F;
+}
+
+
+headerbar {
+  background: #F6F5F4;
+  border-bottom: none;
+  border-bottom-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.destructive-action * {
+  background: #D00000;
+  color: white;
+  box-shadow: none;
+  border: none;
+}
+
+.destructive-action {
+  background: #D00000;
+  color: white;
+  box-shadow: none;
+  border: 1px solid rgba(0,0,0,.0);
+}
+
+.destructive-action:hover {
+  box-shadow: 0 0 0 3px #F59F9F;
+  border: 1px solid #F59F9F;
+}
+
+button {
+  box-shadow: none;
+}
+
+button:hover {
+  box-shadow: 0 0 0 3px #9FCAF5;
+  border: 1px solid #9FCAF5;
+}
