@@ -2,6 +2,7 @@ import gi
 gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk, GLib, Gio, Gdk
 
+# CSS dosyamızı ekleyelim.
 screen = Gdk.Screen.get_default()
 provider = Gtk.CssProvider()
 provider.load_from_path("style.css")
