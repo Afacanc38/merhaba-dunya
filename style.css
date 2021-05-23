@@ -33,7 +33,8 @@ headerbar {
 
 button {
   box-shadow: none;
-  border: 1px solid rgba(0,0,0,.1);
+  /* Kapatma düğmesinin anahatlarını etkinleştirmek için alt satırdaki yorum işaretlerini kaldırın. */
+  /* border: 1px solid rgba(0,0,0,.1); */
 }
 
 button * {
