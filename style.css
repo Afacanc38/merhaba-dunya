@@ -1,4 +1,4 @@
- {
+* {
   background: #F6F5F4;
   border-radius: 10px;
   color: #383E3F;
@@ -33,6 +33,12 @@ headerbar {
 
 button {
   box-shadow: none;
+  border: 1px solid rgba(0,0,0,.1);
+}
+
+button * {
+  box-shadow: none;
+  border: none;
 }
 
 button:hover {
