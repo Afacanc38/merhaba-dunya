@@ -33,7 +33,6 @@ headerbar {
 
 button {
   box-shadow: none;
-  /* Kapatma düğmesinin anahatlarını etkinleştirmek için alt satırdaki yorum işaretlerini kaldırın. */
   /* border: 1px solid rgba(0,0,0,.1); */
 }
 
@@ -45,4 +44,23 @@ button * {
 button:hover {
   box-shadow: 0 0 0 3px #9FCAF5;
   border: 1px solid #9FCAF5;
+}
+
+.sugested-action * {
+  background: #3182E4;
+  color: white;
+  box-shadow: none;
+  border: none;
+}
+
+.sugested-action {
+  background: #3182E4;
+  color: white;
+  box-shadow: none;
+  border: 1px solid rgba(0,0,0,.0);
+}
+
+.sugested-action:hover {
+  box-shadow: 0 0 0 3px #3182E4;
+  border: 1px solid #3182E4;
 }
