@@ -1,7 +1,7 @@
 # Merhaba Dünya
 GTK3 ile hazırlanmış merhaba dünya tarzı bir uygulama
 
-![gghghhghghg](https://user-images.githubusercontent.com/66299502/119252431-e24aea80-bbb4-11eb-845d-12235473fe98.png)
+![ghghghg](https://user-images.githubusercontent.com/66299502/121993471-35771e00-cdac-11eb-826a-249bd17bf3c1.png)
 
 # Hemen deneyin!
 ```
