@@ -1,21 +1,16 @@
 decoration {
-  border-radius: 9px;
+    border-radius: 9px;
 }
-
+  
 window, window.background {
-  border-radius: 0 0 9px 9px;
+    border-radius: 0 0 9px 9px;
 }
-
-decoration {
-  box-shadow: 0 10px 25px 10px rgba(7, 9, 15, 0.8);
-  border: 1px solid #010101;
-}
-
+  
 window.maximized {
-  border-radius: 0;
+    border-radius: 0;
 }
-
-headerbar {
-  background: inherit;
-  border: none;
+  
+headerbar, title {
+    background: inherit;
+    border: none;
 }
